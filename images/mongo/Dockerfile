@@ -7,7 +7,7 @@ RUN apt-get install -y git curl build-essential make gcc wget
 RUN apt-get install -y python-setuptools
 RUN easy_install pip
 
-#supervisor
+# supervisor
 RUN pip install supervisor
 
 ENV VERSION 2.4.9
